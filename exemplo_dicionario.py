@@ -11,3 +11,9 @@ produto_02: dict = {
     "preço": 1500.00,
     "disponibilidade": False
 }
+
+carrinho: list = []
+carrinho.append(produto_01)
+carrinho.append(produto_02)
+
+print(carrinho)
